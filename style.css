@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+body, html{
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#app{
+    height: 100%;
+    width: 100%;
+}
+
+
+.Bg{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
+.Card{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.slider, .slider__label, .slider__input{
+    width: 100%;
+}
+
+.slider .slider__input::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.slider .slider__label{
+    padding: 10px 0px; 
+}
+
+.slider .slider__input .input{
+    width: 100%;
+    float: left;
+    padding: 0 10px;
+}
+
+.slider .slider__input .input.input--name{
+    width: 20%;
+}
+
+.slider .slider__input .input.input--range{
+    width: 60%;
+}
+
+.slider .slider__input .input.input--text{
+    width: 20%;
+}
+
+.slider .slider__input .input input, .slider .slider__input .input label, .slider .slider__input .input button{
+    width: 100%;
+    padding: 10px;
+}
+
+.slider .slider__input .input button{
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+.slider .slider__input .input button:hover{
+    border: 1px solid rgba(0,0,0,0.1);
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+.slider .slider__input .input button:active{
+    border: 1px solid rgba(0,0,0,0.1);
+    background:rgba(0,0,0,0.6);
+    color: #fff;
+}
